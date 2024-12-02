@@ -1,0 +1,612 @@
+[
+    {
+      "id": 4129,
+      "cmp_persona": {
+        "nombres": "ELIUT",
+        "primer_apellido": "MENDEZ",
+        "segundo_apellido": "COLI",
+        "rfc": "MECE891030TAA",
+        "curp": "MECE891030HVZNLL05"
+      },
+      "cat_tipos_empleado": {
+        "nombre": "BASE IMSS BIENESTAR"
+      },
+      "cat_turnos": {
+        "nombre": "NOCTURNO A"
+      },
+      "hora_entrada": "1970-01-01T20:00:00.000Z",
+      "hora_salida": "1970-01-01T08:00:00.000Z",
+      "guardias": "[\"MARTES\",\"JUEVES\",\"DOMINGO\"]",
+      "matricula": 5555,
+      "cat_departamentos": {
+        "id": 16,
+        "codigo": "2024 ",
+        "nombre": "CIRUGIA",
+        "created_at": "2019-09-04T09:02:25.000Z",
+        "updated_at": "2019-09-04T09:02:25.000Z",
+        "deleted_at": null
+      },
+      "attendances": [],
+      "jefe": "JUAN ROBERTO GOMEZ MARTINEZ"
+    },
+    {
+      "id": 4133,
+      "cmp_persona": {
+        "nombres": "MARILYN IVETH",
+        "primer_apellido": "AGUILAR",
+        "segundo_apellido": "MONROY",
+        "rfc": "AUMM920613SM9",
+        "curp": "AUMM920613MVZGNR04"
+      },
+      "cat_tipos_empleado": {
+        "nombre": "BASE IMSS BIENESTAR"
+      },
+      "cat_turnos": {
+        "nombre": "MATUTINO"
+      },
+      "hora_entrada": "1970-01-01T07:00:00.000Z",
+      "hora_salida": "1970-01-01T15:00:00.000Z",
+      "guardias": "[\"LUNES\",\"MARTES\",\"MIERCOLES\",\"JUEVES\",\"VIERNES\"]",
+      "matricula": 5559,
+      "cat_departamentos": {
+        "id": 29,
+        "codigo": "2039 ",
+        "nombre": "BANCO DE SANGRE",
+        "created_at": "2019-09-04T09:02:25.000Z",
+        "updated_at": "2019-09-04T09:02:25.000Z",
+        "deleted_at": null
+      },
+      "attendances": [
+        {
+          "biometric": 8,
+          "dateReg": "Tue, 02 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:17:09",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Tue, 02 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:02:33",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Wed, 03 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:12:08",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Wed, 03 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:06:43",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:13:09",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:04:39",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:14:25",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:04:39",
+          "mat": 5559
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:13:43",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:01:23",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:08:53",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:03:17",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:05:58",
+          "mat": 5559
+        },
+        {
+          "biometric": 8,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:01:08",
+          "mat": 5559
+        }
+      ],
+      "jefe": "ARACELI VAZQUEZ LEAL"
+    },
+    {
+      "id": 4139,
+      "cmp_persona": {
+        "nombres": "URI",
+        "primer_apellido": "TORRUCO",
+        "segundo_apellido": "GARCIA",
+        "rfc": "TOGU800311H3A",
+        "curp": "TOGU800311HCSRRR00"
+      },
+      "cat_tipos_empleado": {
+        "nombre": "BASE IMSS BIENESTAR"
+      },
+      "cat_turnos": {
+        "nombre": "MATUTINO"
+      },
+      "hora_entrada": "1970-01-01T07:30:00.000Z",
+      "hora_salida": "1970-01-01T15:30:00.000Z",
+      "guardias": "[\"LUNES\",\"MARTES\",\"MIERCOLES\",\"JUEVES\",\"VIERNES\"]",
+      "matricula": 5565,
+      "cat_departamentos": {
+        "id": 73,
+        "codigo": "1040 ",
+        "nombre": "CAPASITS",
+        "created_at": "2019-09-04T09:02:26.000Z",
+        "updated_at": "2019-09-04T09:02:26.000Z",
+        "deleted_at": null
+      },
+      "attendances": [
+        {
+          "biometric": 7,
+          "dateReg": "Tue, 02 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:43:29",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Tue, 02 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:43:32",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Tue, 02 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:13",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Tue, 02 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:18",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Wed, 03 Jan 2024 00:00:00 GMT",
+          "horaReg": "08:02:52",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Wed, 03 Jan 2024 00:00:00 GMT",
+          "horaReg": "08:02:54",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Wed, 03 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:34:31",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:41:15",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:41:17",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:03",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:06",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:39:15",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:39:18",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:08",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:11",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:37:42",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:37:44",
+          "mat": 5565
+        },
+        {
+          "biometric": 9,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:59",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:43:05",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:43:07",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:03",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:05",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:38:16",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:38:18",
+          "mat": 5565
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:14",
+          "mat": 5565
+        },
+        {
+          "biometric": 9,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "15:30:31",
+          "mat": 5565
+        }
+      ],
+      "jefe": "DICK HERNANDEZ HERNANDEZ"
+    },
+    {
+      "id": 4145,
+      "cmp_persona": {
+        "nombres": "PAOLA",
+        "primer_apellido": "CANO",
+        "segundo_apellido": "MONTANO",
+        "rfc": "CAMP880411F41",
+        "curp": "CAMP880411MVZNNL07"
+      },
+      "cat_tipos_empleado": {
+        "nombre": "BASE IMSS BIENESTAR"
+      },
+      "cat_turnos": {
+        "nombre": "VESPERTINO"
+      },
+      "hora_entrada": "1970-01-01T13:00:00.000Z",
+      "hora_salida": "1970-01-01T21:00:00.000Z",
+      "guardias": "[\"LUNES\",\"MARTES\",\"MIERCOLES\",\"JUEVES\",\"VIERNES\"]",
+      "matricula": 5571,
+      "cat_departamentos": {
+        "id": 12,
+        "codigo": "2020 ",
+        "nombre": "ESTOMATOLOGIA",
+        "created_at": "2019-09-04T09:02:25.000Z",
+        "updated_at": "2019-09-04T09:02:25.000Z",
+        "deleted_at": null
+      },
+      "attendances": [
+        {
+          "biometric": 3,
+          "dateReg": "Wed, 03 Jan 2024 00:00:00 GMT",
+          "horaReg": "13:03:04",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Wed, 03 Jan 2024 00:00:00 GMT",
+          "horaReg": "13:03:06",
+          "mat": 5571
+        },
+        {
+          "biometric": 5,
+          "dateReg": "Wed, 03 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:44",
+          "mat": 5571
+        },
+        {
+          "biometric": 5,
+          "dateReg": "Wed, 03 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:50",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:43:39",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:43:41",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:43:43",
+          "mat": 5571
+        },
+        {
+          "biometric": 5,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:33",
+          "mat": 5571
+        },
+        {
+          "biometric": 5,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:35",
+          "mat": 5571
+        },
+        {
+          "biometric": 4,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:43:30",
+          "mat": 5571
+        },
+        {
+          "biometric": 4,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:43:35",
+          "mat": 5571
+        },
+        {
+          "biometric": 4,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:42",
+          "mat": 5571
+        },
+        {
+          "biometric": 4,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:44",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:45:28",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:45:31",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:10",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:11",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:53:01",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:53:06",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:41",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:43",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:54:46",
+          "mat": 5571
+        },
+        {
+          "biometric": 3,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "12:54:56",
+          "mat": 5571
+        },
+        {
+          "biometric": 6,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "21:00:03",
+          "mat": 5571
+        }
+      ],
+      "jefe": "VIANNEY MORALES ANGUIANO"
+    },
+    {
+      "id": 4146,
+      "cmp_persona": {
+        "nombres": "BRENDA MICHAEL",
+        "primer_apellido": "BARRAGAN",
+        "segundo_apellido": "GRAJALES",
+        "rfc": "BAGB9503277F4",
+        "curp": "BAGB950327MVZRRR02"
+      },
+      "cat_tipos_empleado": {
+        "nombre": "BASE IMSS BIENESTAR"
+      },
+      "cat_turnos": {
+        "nombre": "NOCTURNO A"
+      },
+      "hora_entrada": "1970-01-01T19:00:00.000Z",
+      "hora_salida": "1970-01-01T07:00:00.000Z",
+      "guardias": "[\"LUNES\",\"MIERCOLES\",\"VIERNES\"]",
+      "matricula": 5572,
+      "cat_departamentos": {
+        "id": 27,
+        "codigo": "2037 ",
+        "nombre": "RADIOLOGIA E IMAGEN",
+        "created_at": "2019-09-04T09:02:25.000Z",
+        "updated_at": "2019-09-04T09:02:25.000Z",
+        "deleted_at": null
+      },
+      "attendances": [
+        {
+          "biometric": 9,
+          "dateReg": "Wed, 03 Jan 2024 00:00:00 GMT",
+          "horaReg": "19:34:53",
+          "mat": 5572
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:18:49",
+          "mat": 5572
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Thu, 04 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:18:51",
+          "mat": 5572
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "19:30:24",
+          "mat": 5572
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Fri, 05 Jan 2024 00:00:00 GMT",
+          "horaReg": "19:30:26",
+          "mat": 5572
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Sat, 06 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:00:06",
+          "mat": 5572
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Sat, 06 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:00:10",
+          "mat": 5572
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "19:26:52",
+          "mat": 5572
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Mon, 08 Jan 2024 00:00:00 GMT",
+          "horaReg": "19:27:00",
+          "mat": 5572
+        },
+        {
+          "biometric": 9,
+          "dateReg": "Tue, 09 Jan 2024 00:00:00 GMT",
+          "horaReg": "07:00:13",
+          "mat": 5572
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "19:28:42",
+          "mat": 5572
+        },
+        {
+          "biometric": 7,
+          "dateReg": "Wed, 10 Jan 2024 00:00:00 GMT",
+          "horaReg": "19:28:44",
+          "mat": 5572
+        }
+      ],
+      "jefe": "  "
+    }
+  ]
