@@ -2,7 +2,7 @@ const fs = require('fs');
 const moment = require('moment');
 const _ = require('lodash');
 
-const data = fs.readFileSync('code.json', 'utf8');
+const data = fs.readFileSync('2.json', 'utf8');
 
 const parseData = JSON.parse(data);
 
@@ -15,7 +15,7 @@ const filterByTimeRange = (data) => {
             min: moment(item.horaReg, 'HH:mm:ss').minutes()
 
         }
-    })
+    });
 
     const groupByHour = _.groupBy(aux, 'hora');
     Object.keys(groupByHour).map(key => {
@@ -28,8 +28,11 @@ const filterByTimeRange = (data) => {
         res.push(groupByHour[key]);
     });
 
-    console.log(res);
-    
+    let testing = [];
+    Object.keys(groupByHour).map(key => {
+        testing.push(groupByHour[key]);
+    });
+    return testing;
 };
   
   
@@ -50,34 +53,35 @@ parseData.map(item => {
     });
 
     const grupByDate = _.groupBy(attendances, 'dateReg');
-    // console.log(grupByDate)
+    let res = {};
 
     Object.keys(grupByDate).map(key => {
         const assistencedFiltered = filterByTimeRange(grupByDate[key]);
-        grupByDate[key] = assistencedFiltered;
+        res = {
+            ...res,
+            [key]: assistencedFiltered
+
+        }
     });
 
-    // console.log(grupByDate)
+    let specialCases = [];
 
-    // let specialCases = [];
+    let final = {};
 
-    // let final = {};
+    Object.keys(res).map(key => {
+        if(res[key].length == 1) {
+            specialCases.push(res[key]);
+        } else {
+            // This case is just when have 2 asistencias
+            final[key] = res[key];
+        }
+    });
 
-    // Object.keys(grupByDate).map(key => {
-    //     if(grupByDate[key].length == 1) {
-    //         specialCases.push(grupByDate[key]);
-    //         // console.log(grupByDate[key])
-    //     } else {
-    //         // This case is just when have 2 asistencias
-    //         final[key] = grupByDate[key];
-    //     }
-    // });
+    console.log(specialCases)
 
-    // console.log(specialCases)
+    console.log(final);
 
-    // console.log(final);
-
-    // INCIDENCIAS
+    // INCIDENCIAS drop checadas with incidentes
 
 
 
